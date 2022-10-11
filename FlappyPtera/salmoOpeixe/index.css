@@ -1,0 +1,187 @@
+#ceu
+{
+    background-color: skyblue;
+    float: top;
+    height: 670px;
+}
+
+#pedra
+{
+    width: 40%;
+    height: 100px;
+    clear: left;
+    float: left;
+}
+
+#penha
+{
+    background-image: url(bloco.jpg);
+    width: 40%;
+    height: 285px;
+    float: left;
+}
+
+#terra
+{
+    background-color: darkcyan;
+    width: 60%;
+    height: 285px;
+    float: right;
+}
+
+#salmo
+{
+    text-align: center;
+}
+
+.dino {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 300px;
+    margin-right: 900px;
+    position: relative;
+    animation-name: ptera;
+    animation-duration: 20s;
+}
+.peixe1
+{
+    display: inline-block;
+    position: absolute;
+    animation-name: peixe1;
+    animation-duration: 20s;
+    margin-left: 760px;
+    margin-top: 650px;
+}
+
+.peixe2
+{
+    display: inline-block;
+    position: absolute;
+    animation-name: peixe2;
+    animation-duration: 20s;
+    margin-left: 1660px;
+    margin-top: 750px;
+}
+
+.peixe3
+{
+    display: inline-block;
+    position: absolute;
+    animation-name: peixe3;
+    animation-duration: 20s;
+    margin-left: 1560px;
+    margin-top: 550px;
+}
+
+.ovonapedra
+{
+    clear: left;
+    float: left;  
+    padding-top: 280px;
+}
+
+.liso
+{
+    display: inline-block;
+    position: relative;
+    animation-name: mar;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    padding-left: 100px;
+    animation-direction: reverse
+}
+
+.liso2
+{
+    display: inline-block;
+    position: relative;
+    animation-name: mar2;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    padding-left: 100px;
+}
+
+.lisopeq
+{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    animation-name: mar3;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    padding-left: 50px;
+}
+
+@keyframes mar {
+    0%   {left:0px; top:0px;}
+    15%  {left:20%; top:0px;}
+    25%  {left:40%; top:0px;}
+    35%  {left:50%; top:0px;}
+    50%  {left:60%; top:0px;}
+    75%  {left:40%; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes mar2 {
+    0%   {left:0px; top:0px;}
+    15%  {left:70%; top:0px;}
+    25%  {right:80%; top:0px;}
+    35%  {left:20%; top:0px;}
+    50%  {right:40%; top:0px;}
+    75%  {left:10%; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes mar3 {
+    0%   {left:0px; top:0px;}
+    15%  {left:40%; top:0px;}
+    25%  {right:20%; top:0px;}
+    35%  {left:30%; top:0px;}
+    50%  {right:14%; top:0px;}
+    75%  {left:10%; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes ptera {
+    0%   {left:0px; top:-100px;}
+    15%  {left:1000px; top:150px;}
+    25%  {left:800px; top:-100px;}
+    35%  {left:0; top:-100px;}
+    50%  {left:700px; top:250px;}
+    75%  {left:1200px; top:120px;}
+    90% {left:0px; top:-100px;}
+    100% {left:0px; top:-100px;}
+  }
+
+@keyframes peixe1 {
+    0%   {left:0px; top:200px;}
+    15%  {left:380px; top:100px;}
+    25%  {left:200px; top:-150px;}
+    35%  {left:-650px; top:-160px;}
+    100% {left:-650px; top:-160px;}
+  }
+
+  @keyframes peixe2 {
+    0%   {left:0px; top:200px;}
+    10%  {left:150px; top:10px;}
+    25%  {left:-500px; top:150px;}
+    45%  {left:150px; top:10px;}
+    50%  {left:-100px; top:-20px;}
+    60%  {left:-300px; top:-20px;}
+    75%  {left:-320px; top:-20px;}
+    90% {left:-1510px; top:-235px;}
+    100% {left:-1510px; top:-235px;}
+  }
+
+  @keyframes peixe3 {
+    0%   {left:0px; top:200px;}
+    20%  {left:-100px; top:120px;}
+    25%  {left:-500px; top:150px;}
+    45%  {left:-720px; top:310px;}
+    50%  {left:-720px; top:310px;}
+    75%  {left:-185px; top:175px;}
+    90% {left:-1390px; top:-55px;}
+    100% {left:-1390px; top:-55px;}
+  }
